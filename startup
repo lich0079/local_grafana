@@ -1,0 +1,9 @@
+
+nohup  /Users/xxx/server/node_exporter-1.0.0/node_exporter   &
+
+
+nohup  /Users/xxx/server/prometheus-2.18.1/prometheus   --config.file=/Users/xxx/server/prometheus-2.18.1/prometheus.yml   &
+
+
+nohup  /Users/xxx/server/grafana-6.7.3/bin/grafana-server  --config /Users/xxx/server/grafana-6.7.3/conf/defaults.ini  --homepath /Users/xxx/server/grafana-6.7.3 &
+
